@@ -66,6 +66,8 @@ public class DiceRoller {
 					System.out.println("Sorry again");
 				}
 			} while (code == -1);
+			
+			//Code is impolite
 
 			if (AllowReRoll == true) {
 				System.out.println("On what number would you like to ReRoll?");
